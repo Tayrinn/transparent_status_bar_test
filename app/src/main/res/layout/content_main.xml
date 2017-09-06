@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is a part of the Yandex Search for Android project.
+  ~
+  ~ (C) Copyright 2017 Yandex, LLC. All rights reserved.
+  ~
+  ~ Author: Olga Kim <tayrinn@yandex-team.ru>
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.tayrinn.hustle.radio.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in enim semper est facilisis bibendum vitae eu leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In blandit tellus nisl, at tincidunt lorem auctor quis. In gravida purus dui, non tincidunt arcu sagittis at. In rutrum congue ultricies. Phasellus id mauris tempor, bibendum neque vel, dictum elit. Nullam rhoncus eu erat sit amet fermentum. Sed auctor nec erat ac auctor. Nunc sit amet tristique elit.
+
+Aliquam tincidunt molestie orci suscipit porttitor. Etiam lacinia tincidunt ex, quis malesuada velit rutrum vel. Praesent id pharetra lacus. Nullam tincidunt fringilla libero, in tristique urna tempus eget. Integer vel nunc ac magna tincidunt tempor vel eget eros. Aenean gravida libero ipsum, id fermentum augue fermentum at. Curabitur vel enim eget lorem fermentum lacinia. Sed at neque est. Morbi porta sodales felis sed sollicitudin. Curabitur ut egestas neque, in porta turpis. Sed id mi quis dolor volutpat placerat in a risus. Sed non augue quis leo gravida consectetur. Nam finibus, ex sit amet pretium faucibus, justo eros volutpat quam, sed euismod leo neque quis arcu.
+
+Etiam porta pretium purus, ac pellentesque nibh bibendum eget. Vivamus maximus, ex ut dignissim tempus, lectus elit commodo arcu, in cursus lorem nulla vitae neque. Proin ultrices ullamcorper sagittis. Duis sagittis, eros auctor efficitur aliquet, odio justo porta erat, at tincidunt purus velit sit amet turpis. Maecenas et felis a turpis pellentesque cursus. Nunc bibendum nisi quis purus placerat, quis posuere enim ultricies. In varius orci nec vulputate tempor. Quisque pretium finibus risus, eget imperdiet urna pretium ut.
+
+Proin efficitur dui sit amet tempus interdum. In hac habitasse platea dictumst. Integer venenatis, eros id sagittis rutrum, eros est aliquet nulla, ornare commodo massa neque quis nisi. Aenean vehicula lectus neque, nec elementum nulla pellentesque et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur luctus hendrerit rhoncus. Suspendisse quam felis, lacinia id iaculis at, posuere at lacus. Nullam placerat metus eu sagittis efficitur. Duis elementum ligula mauris, nec malesuada dui semper ac. Curabitur consequat urna non risus scelerisque, eget sodales mi volutpat. Donec efficitur ut risus in sagittis. Ut posuere accumsan nisi non lacinia. Sed cursus, risus eu consectetur finibus, nisl quam tincidunt velit, vel hendrerit leo leo sed augue.
+
+In lacinia urna ac egestas maximus. Suspendisse dapibus faucibus erat, non pharetra est ultrices sed. Aliquam at sem augue. Aliquam ullamcorper tortor et turpis tincidunt, at sollicitudin leo faucibus. Phasellus condimentum volutpat urna, ac suscipit leo posuere nec. Nulla non ligula quis sem volutpat ullamcorper. Sed rhoncus facilisis nisi ut semper. Mauris congue tempus sollicitudin. Pellentesque tempor ex ut risus efficitur efficitur.
+
+Curabitur pretium, metus at finibus facilisis, quam tellus malesuada sapien, eget facilisis augue velit ac ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas congue nulla at gravida finibus. Etiam sem quam, pellentesque sit amet mauris non, tempor venenatis elit. Donec dolor nunc, varius a fermentum eu, auctor vitae eros. In rhoncus diam erat.
+
+Aliquam hendrerit suscipit est, eu bibendum nisl bibendum non. Fusce hendrerit lectus at enim volutpat porttitor. Cras fringilla iaculis velit vitae egestas. Curabitur posuere est ex, a euismod risus imperdiet quis. Sed elementum eros a felis aliquam posuere. Nunc egestas iaculis feugiat. Integer eget orci vitae eros fringilla laoreet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce id justo tellus. Fusce vulputate, libero vel ultricies auctor, ex enim auctor velit, vitae consequat ipsum erat ac quam. Maecenas ultricies accumsan sollicitudin. Proin eget iaculis urna, sit amet suscipit velit. Nunc mattis leo vel cursus mollis.
+
+Quisque ullamcorper viverra nunc in molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi a augue maximus, commodo ex eget, varius felis. Praesent mi ligula, porta in nunc eget, dapibus convallis elit. Phasellus pulvinar consectetur eros, commodo vestibulum ex ornare eu. In laoreet dignissim ex, id vulputate purus iaculis sed. Nulla justo purus, ultrices ac est quis, sollicitudin egestas magna. Phasellus rhoncus nibh vel dui cursus volutpat. Nam vestibulum tristique varius. Praesent eget consectetur ante. Phasellus venenatis magna vitae condimentum scelerisque. Pellentesque sit amet tellus quis eros placerat fringilla.
+
+Aliquam porttitor ornare dolor, vitae efficitur dolor auctor a. Suspendisse purus quam, aliquet sed nulla at, ultrices molestie odio. Fusce sed libero lacus. Curabitur nulla neque, consequat nec leo quis, imperdiet elementum odio. Mauris non turpis quis justo dignissim dapibus id ut ex. Aliquam neque lacus, molestie ut fermentum id, semper at turpis. Vestibulum porta purus vel convallis pellentesque. Sed auctor, ligula in euismod efficitur, neque velit iaculis arcu, quis consequat neque neque ut tortor. Nam sit amet sodales nisi.
+
+Donec pharetra sodales sem quis dictum. Quisque nec varius tortor, eu venenatis ante. Maecenas ut laoreet augue. Integer non velit dolor. Etiam vitae pellentesque leo. In pellentesque ipsum sed tincidunt pulvinar. Duis leo sem, tincidunt sed hendrerit eu, posuere at nulla. Nunc a urna interdum risus rutrum congue eu vitae quam. Proin congue neque vel elementum rutrum. Morbi vitae lacus interdum, tempor nisl bibendum, porttitor augue.
+
+In porttitor ac lectus id congue. Maecenas aliquet efficitur eros, quis porta risus ultrices et. Morbi in sodales enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis dolor nisi, nec viverra neque condimentum nec. Duis ante orci, auctor commodo placerat at, imperdiet sit amet lacus. Nam sagittis sapien nec nisi porta, vitae fringilla neque scelerisque. Aenean sodales dui quis lectus lacinia, quis gravida dui gravida. Quisque dui neque, convallis vitae erat eget, fringilla facilisis ligula. Integer eget diam mollis, fringilla nisl vehicula, sollicitudin libero. Maecenas faucibus odio sed lobortis dapibus. Proin ut lacus tincidunt metus convallis mattis. Mauris at purus eros.
+
+Suspendisse tincidunt blandit purus, et luctus quam elementum in. Nunc varius est et congue dignissim. Duis metus turpis, rutrum sed lobortis nec, interdum non ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam euismod feugiat orci et porta. Vivamus vitae euismod risus. Sed sagittis tortor quis est finibus, vitae gravida nisi iaculis. Donec vulputate est eget metus dictum, vitae dignissim mauris accumsan. Morbi tellus leo, accumsan non vehicula at, congue vitae erat. Curabitur finibus leo dui, ac vulputate enim volutpat nec. Donec lacus est, volutpat posuere lectus ac, sodales congue augue. Aliquam condimentum orci ac malesuada posuere. Fusce justo est, volutpat hendrerit turpis vel, consequat mollis ex. Fusce feugiat, eros vel suscipit elementum, nulla sem luctus leo, tincidunt eleifend elit neque quis ipsum. Cras venenatis id sapien non ornare. Praesent quis nisl vitae diam imperdiet sollicitudin.
+
+Nam blandit vel metus suscipit pulvinar. Curabitur id nibh feugiat, posuere eros quis, venenatis odio. Aenean euismod augue id varius facilisis. Pellentesque mattis ac magna in tempor. Fusce at tincidunt nisl, at efficitur nunc. Sed quis vulputate magna, eu facilisis arcu. Cras malesuada nec ante eget faucibus. Aliquam non ornare diam, eu interdum lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque ac ex urna. Phasellus vel tempus sem. Etiam tristique aliquam purus sit amet convallis.
+
+Nulla facilisi. Maecenas vulputate sollicitudin diam ut pellentesque. Vivamus a urna at ante scelerisque consectetur. In hac habitasse platea dictumst. Mauris semper imperdiet nisl eget interdum. Sed nisl ante, lacinia non fringilla porttitor, dignissim non ex. Nam dui odio, posuere at sem ut, ornare tempus nibh. Sed fringilla sit amet leo eget ultrices. In mattis facilisis dignissim. Praesent dui ipsum, facilisis id pretium vitae, luctus et odio. Proin vel vehicula nunc. Sed in orci magna. Quisque ac risus dolor. Mauris dui mi, sodales at orci mollis, varius gravida augue. Curabitur tristique cursus est, vitae suscipit elit.
+
+Cras pulvinar felis turpis, efficitur ornare nisl elementum ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas sollicitudin scelerisque nibh, at auctor nunc egestas hendrerit. Proin dapibus odio ut posuere semper. Curabitur ac libero odio. Praesent eget nunc vel eros dictum mollis. Vestibulum ultrices sem vel est hendrerit consequat. Curabitur in lobortis metus, at sollicitudin nisi. In ultrices pulvinar cursus. Maecenas ornare fringilla convallis. Quisque placerat lobortis diam in gravida. Vivamus non libero eget elit condimentum vestibulum ac quis risus."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is a part of the Yandex Search for Android project.
+  ~
+  ~ (C) Copyright 2017 Yandex, LLC. All rights reserved.
+  ~
+  ~ Author: Olga Kim <tayrinn@yandex-team.ru>
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
